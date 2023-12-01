@@ -1,13 +1,25 @@
 console.log('dsra');
-import bgImg from '../src/background.png'
 import './style.css';
-import 'normalize.css'
-let container = document.querySelector('.con');
-const headerNav = document.createElement('div.');
+import 'normalize.css';
+import { createHomePage,container } from './homePage';
 
-let h1 = document.createElement('h1');
-h1.textContent="Le Indian Cuisine";
-const myBgImg = new Image();
-myBgImg.src = bgImg;
+import { createMenuPage } from './menuPage';
+/*adding tabs */
 
-container.append(h1,headerNav);
+
+const headerNav = document.createElement('div');
+const HomeButton = document.createElement('button');
+const MenuButton = document.createElement('button');   
+MenuButton.textContent="Menu";
+HomeButton.textContent="Home";
+headerNav.setAttribute('class','header');
+
+// container.insertAdjacentElement("beforebegin", headerNav);
+container.append(headerNav)
+headerNav.append(MenuButton,HomeButton);
+
+HomeButton.addEventListener('click',createHomePage);
+MenuButton.addEventListener('click',createMenuPage)
+// createHomePage();
+import menuBgImg from '../images/fire-flame-black-background.jpg'
+
