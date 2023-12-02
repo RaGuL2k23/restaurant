@@ -35,7 +35,7 @@ const biryaniDescription = createDescription('Biryani is there a need to say abo
 const tiffen = createRecipContainer('tiffen');
 const myTiffenImg = new Image();
 myTiffenImg.src = tiffenImg;
-const tiffenDescription = createDescription('Taste the typical indian tiffen with mouth tasting bury,dosa,pongal,vada and more😋');
+const tiffenDescription = createDescription('Taste  the typical indian tiffen with mouth tasting bury , dosa , pongal , vada and more😋');
 const biryani = createRecipContainer('biryani' );
 //end of menu items 
 function createMenuPage(){ //fn to be exported
@@ -55,7 +55,7 @@ function createMenuPage(){ //fn to be exported
  
   tiffen.append(myTiffenImg,tiffenDescription);
 
-  menuPageContainer.append(h1,tiffen,kichadi,biryani);
+  menuPageContainer.append(h1,kichadi,tiffen,biryani);
   container.append(menuPageContainer)
 }
 
