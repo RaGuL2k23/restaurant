@@ -9,12 +9,12 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'), 
   },
  
-  plugins: [
-    new HtmlWebpackPlugin({ 
-      title: 'Restaurant',
-      inject:'body'
-    }),
-  ],
+  // plugins: [
+  //   new HtmlWebpackPlugin({ 
+  //     title: 'Restaurant',
+  //     inject:'body'
+  //   }),
+  // ],
 
   devServer: {
     static: './dist',
