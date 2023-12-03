@@ -2,7 +2,8 @@
 import kichadiImg from '../images/kichadi.png';
 import biryaniImg from '../images/biryani.png';
 import tiffenImg from '../images/typical-indian-breakfast.png';
-import { container,homePageHeading,magicWords } from './homePage';
+import { container,homePageContainer } from './homePage';
+import { contactPageContainer} from './contactPage';
 
 const menuPageContainer = document.createElement('div');
 const h1 = document.createElement('h1');
@@ -44,7 +45,7 @@ function createMenuPage(){ //fn to be exported
    
     
 
-    menuPageContainer.remove();homePageHeading.remove();magicWords.remove();
+   contactPageContainer.remove(); menuPageContainer.remove();homePageContainer.remove();
      
   kichadi.append(myKichadiImg,kichadiDescription);
 
@@ -60,5 +61,5 @@ function createMenuPage(){ //fn to be exported
 }
 
 export{
-    createMenuPage,menuPageContainer,
+    createMenuPage,menuPageContainer,homePageContainer,contactPageContainer,container
 }
