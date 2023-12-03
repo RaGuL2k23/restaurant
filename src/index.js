@@ -22,8 +22,7 @@ headerNav.append(HomeButton,MenuButton,contactButton);
 HomeButton.addEventListener('click',createHomePage);
 MenuButton.addEventListener('click',createMenuPage);
 contactButton.addEventListener('click',creatConatactPage);
-createHomePage();
-import menuBgImg from '../images/fire-flame-black-background.jpg'
+createHomePage(); 
 
 export{
     headerNav
