@@ -54,7 +54,7 @@ let orderStatus;
 function afterSubmitting(){
        if(orderStatus!=undefined ){orderStatus.remove();}
      orderStatus = document.createElement('orderStatus');orderStatus.setAttribute('style','width = 300px')
-    orderStatus.textContent = `YOUR FAV ${foodName.input.value} IS BIENG COOKD IN THE FIRE HERE`;  
+    orderStatus.textContent = `YOUR   ${foodName.input.value} IS BIENG COOKD IN THE FIRE HERE`;  
     contactPageContainer.appendChild(orderStatus);
 }
 export{

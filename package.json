@@ -8,7 +8,7 @@
     "build": "webpack ",
     "watch": "webpack --watch --progress",
     "start": "webpack serve --open",
-    "pushmyapp": "git subtree push --prefix dist origin gh-pages"
+    "pusha": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
