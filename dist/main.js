@@ -488,7 +488,7 @@ body,html{
   align-items: center;
   justify-items: start;
   & img{  border: 8px solid rgba(23, 180, 219, 0.1);
-    border-radius: 48%;// siva siva
+    border-radius: 48%;
     justify-self: center;
     width: 19vw; /*dynamic height and width changing*/
   height: 19vw;margin-left: 1.6vw;
