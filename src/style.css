@@ -13,7 +13,7 @@
 
 body,html{
     height: 100vh;width:100vw;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   .heading{
     color:gold;font-size: 5em;
@@ -59,9 +59,9 @@ body,html{
   }
   height: 230vh;
 } 
-@media screen   and (max-width:460px){
+@media screen   and (max-width:560px){
   .menuPageContainer{
-    height:83vh; 
+     height: 84vh;
     & h1{
       margin: 3vw 13vw;
     }
@@ -78,7 +78,7 @@ body,html{
   justify-content: center;
   align-items: center;
   justify-items: start;
-  & img{  
+  & img{  border: 8px solid yellow;
     justify-self: center;
     width: 19vw; /*dynamic height and width changing*/
   height: 19vw;margin-left: 1.6vw;
