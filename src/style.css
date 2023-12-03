@@ -78,7 +78,7 @@ body,html{
   justify-content: center;
   align-items: center;
   justify-items: start;
-  & img{  border: 8px solid rgba(219, 219, 23, 0.1);
+  & img{  border: 8px solid rgba(23, 180, 219, 0.1);
     border-radius: 48%;
     justify-self: center;
     width: 19vw; /*dynamic height and width changing*/
